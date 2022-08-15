@@ -82,8 +82,8 @@ app.layout = html.Div(children=[
                 dcc.Dropdown(
                     id='options-drop',
                     options=[{'label': i, 'value': i} for i in list_of_columns],
-                    value='Corn',
-                    optionHeight=50
+                    value='Corn'#,
+                    #optionHeight=50
                 ),
         ], className='two columns'),
         html.Div([dcc.Graph(id='figure-1'),
