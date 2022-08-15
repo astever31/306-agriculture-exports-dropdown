@@ -103,7 +103,7 @@ app.layout = html.Div(children=[
              [Input('options-drop', 'value')])
 def make_figure(varname):
     mygraphtitle = f'Exports of {varname} in 2022'
-    mycolorscale = 'sunset' # Note: The error message will list possible color scales.
+    mycolorscale = 'emrld' # Note: The error message will list possible color scales.
     mycolorbartitle = "Millions USD"
 
     data=go.Choropleth(
